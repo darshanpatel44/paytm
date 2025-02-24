@@ -67,7 +67,7 @@ Ensure you have the following installed on your machine:
 
 3. **Set up the database:**
 
-   - Create a PostgreSQL database using a service like [Neon](https://neon.tech/) or [Aiven](https://console.aiven.io/).
+   - Create a PostgreSQL database using a service like [Neon](https://neon.tech/) or [Aiven](https://console.aiven.io/) or [Supabase](https://supabase.com/).
    - Alternatively, run PostgreSQL using Docker:
      ```sh
      docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
